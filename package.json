@@ -2,13 +2,13 @@
   "name": "simple-deferred",
   "version": "1.0.0",
   "description": "Simple Deferred",
-  "main": "lib/simple-deferred.js",
+  "main": "src/simple-deferred.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/akmjenkins/simple-deferred.git"
   },
   "scripts": {
-    "test": "npm run compile && mocha --compilers js:babel-core/register",
+    "test": "mocha --compilers js:babel-core/register",
     "compile": "babel -d lib/ src/",
     "example": "babel-node examples/deferred.js"
   },

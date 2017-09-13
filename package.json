@@ -2,7 +2,8 @@
   "name": "simple-deferred",
   "version": "1.0.0",
   "description": "Simple Deferred",
-  "main": "src/simple-deferred.js",
+  "main": "lib/simple-deferred.js",
+  "module": "src/simple-deferred.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/akmjenkins/simple-deferred.git"
